@@ -16,7 +16,7 @@ A quadrotor carries a flexible wire with a hook at its end. In simulation, it le
 > 🎯 **Goal:** perform this dynamic **hook-and-grasp** manoeuvre on a **real quadrotor** ([OmniNxt](https://github.com/HKUST-Aerial-Robotics/OmniNxt)) with **zero-shot sim-to-real transfer**.
 
 <p align="center">
-  <img src="docs/images/hook_grasp_rollout.gif" alt="Hook-grasp rollout in simulation" width="800"/>
+  <img src="docs/images/hook_grasp_rollout.webp" alt="Hook-grasp rollout in simulation" width="800"/>
   <br/>
   <em>Policy rollout in simulation. The hook turns green once it is attached to the bar (red).</em>
 </p>
