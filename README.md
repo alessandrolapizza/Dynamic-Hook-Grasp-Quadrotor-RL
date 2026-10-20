@@ -13,10 +13,10 @@
 
 A quadrotor carries a flexible wire with a hook at its end. In simulation, it learns with reinforcement learning to **swing the hook onto an object and grasp it**. The policy is trained with PPO in NVIDIA Isaac Lab and sends its commands to a classical low-level flight controller.
 
-> 🎯 **Goal:** perform this dynamic **hook-and-grasp** manoeuvre on a **real quadrotor** ([OmniNxt](https://github.com/HKUST-Aerial-Robotics/OmniNxt)) with **zero-shot sim-to-real transfer**, i.e. the policy trained in simulation runs on the hardware without any fine-tuning.
+> 🎯 **Goal:** perform this dynamic **hook-and-grasp** manoeuvre on a **real quadrotor** ([OmniNxt](https://github.com/HKUST-Aerial-Robotics/OmniNxt)) with **zero-shot sim-to-real transfer**.
 
 <p align="center">
-  <img src="docs/images/hook_grasp_rollout.gif" alt="Hook-grasp rollout in simulation" width="640"/>
+  <img src="docs/images/hook_grasp_rollout.gif" alt="Hook-grasp rollout in simulation" width="800"/>
   <br/>
   <em>Policy rollout in simulation. The hook turns green once it is attached to the bar (red).</em>
 </p>
