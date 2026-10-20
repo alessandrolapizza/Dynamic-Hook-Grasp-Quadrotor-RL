@@ -1,0 +1,12 @@
+**/__pycache__/
+*.egg-info
+logs/
+wandb/
+outputs/
+videos/
+dump.prof
+profile.sh
+*.svg
+*.sqlite3
+*.db
+reference_trajectories/

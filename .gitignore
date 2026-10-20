@@ -1,0 +1,15 @@
+# Cluster / container artefacts
+/containers/
+/isaac_sim_cache/
+/slurm_logs/
+
+# Training outputs (also ignored inside the extension)
+logs/
+videos/
+outputs/
+wandb/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info
